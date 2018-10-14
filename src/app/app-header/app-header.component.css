@@ -1,0 +1,28 @@
+nav{
+    background:red !important;
+    color:white;
+    padding:5px;
+    vertical-align: center;
+    box-shadow: 0 0 10px grey;
+}
+
+nav h2{
+    font-weight: 300 !important;
+    color:lightgray;
+}
+
+.logo{
+    height:50px;
+}
+
+.site_title{
+    font-family: calibri;
+    display: inline-block;
+    top:5px;
+    position: relative;
+}
+
+.dropdown{
+    position: absolute;
+    right:10px;
+}

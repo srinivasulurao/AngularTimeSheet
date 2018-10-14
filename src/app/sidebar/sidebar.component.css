@@ -1,0 +1,58 @@
+.sidebar{
+    backgroundd:#252830;
+    background:red;
+    height:100vh;
+    border-top:1px solid tomato;
+}
+
+.profile_pic{
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    border: 2px solid white !important;
+    border-radius: 100%;
+    padding: 15px;
+}
+
+.profile_pic_area{
+    color:white;
+    text-align: center;
+}
+
+
+.profile_links_area li{
+    list-style: none;
+}
+
+.profile_links_area{
+    
+    margin-top:25px;
+}
+
+.profile_links_area ul{
+    padding:0px;
+    margin:0px;
+}
+
+.profile_links_area a{
+    border-top:0px solid #434857;
+    display: block;
+    padding:10px;
+    color:white;
+    text-decoration:none;
+    margin-left:10px;
+    margin-right:10px;
+}
+.profile_links_area a:hover
+{
+    color:lightgrey !important;
+}
+.isActive{
+    background:#1997c6;
+    backgrovund:#434857;
+    color:white !important;
+    border-radius: 4px;
+}
+

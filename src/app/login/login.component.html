@@ -1,0 +1,15 @@
+<app-app-header></app-app-header>
+<div style="text-align:center" class="container">
+      <div [ngClass]="warning_class" [ngStyle]="warning_style">{{warning_message}}</div>
+        <div style="text-align:center" class="container">
+          
+          <form method="POST" (ngSubmit)="AuthenticateCredentials(oracleEmail.value,oraclePassword.value)"  [class]='form_box_class'>
+            <label>{{label_email}}</label>
+            <input type='email' #oracleEmail autocomplete='off'  [(ngModel)]="oracle_email" name='oracle_email' class='form-control'>
+            <label>{{label_password}}</label>
+            <input type='password' #oraclePassword autocomplete='off' [(ngModel)]="oracle_password" name="oracle_password" class='form-control'><br>
+            <button type='submit' [disabled]="submit_disabled" [ngStyle]='submit_button_styles' [ngClass]='submit_button_class'>{{sign_in_status}}</button>
+          </form>
+</div>
+
+

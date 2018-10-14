@@ -1,0 +1,19 @@
+.error_404{
+
+    background: url(https://www.telegraph.co.uk/content/dam/spark/Images/robot-error.jpg);
+    height: 600px;
+    width: 1000px;
+    background-repeat: no-repeat;
+    margin: auto;
+    background-position: 50% 0px;
+    box-shadow: 0 0 10px;
+   
+}
+
+.pnf_body{
+    background:red;
+    margin:0px;
+    padding:0px;
+    height:100vh;
+    padding-top:100px;
+}

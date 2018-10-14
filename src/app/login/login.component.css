@@ -1,0 +1,22 @@
+.container{
+    min-height: 650px;
+}
+
+form{
+    border: 1px solid lightgrey;
+    padding: 20px;
+    margin: auto;
+    width: 400px;
+    top: 200px;
+    height:245px;
+    position: relative;
+    border-radius: 4px;
+    text-align: left;
+    box-shadow: 0 0 10px lightgrey;
+}
+
+.alert{
+    font-weight:bold;
+    position:absolute !important;
+    width:65%;
+}

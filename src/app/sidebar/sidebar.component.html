@@ -1,0 +1,12 @@
+<div class='sidebar sidebar-sticky'>
+  <div class='profile_pic_area'>
+  <img class='thumbnails profile_pic' src='{{user_img}}'> <br>
+  Welcome {{user_name}} <br><span class='badge badge-success'>{{user_designation}}</span>
+  </div>
+
+  <div class='profile_links_area'>
+        <ul class="profile_list_links">
+            <li *ngFor="let link of user_links"><a [ngClass]="link.href==current_url?'isActive':'access-link'" href='{{link.href}}'><i class='{{link.icon}}'> </i> &nbsp; {{link.name}}</a></li>
+          </ul>
+  </div>
+</div>

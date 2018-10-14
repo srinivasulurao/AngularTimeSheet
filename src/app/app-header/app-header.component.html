@@ -1,0 +1,17 @@
+<html>
+  <title>Oracle TimeSheet Tool</title>
+  
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light"><a href=''><img src=''> <img class='logo' src='https://zdnet4.cbsistatic.com/hub/i/2018/01/17/d81bb14c-017d-4876-bae9-f30be1ced1ad/a2a8b2ff6aebe238fec533ba26ea1fa4/oracle-cloud-logo.png'> 
+    <h2 class='site_title'>{{title}}</h2></a>
+  
+    <div class="dropdown" [ngStyle]="dropDownVisibility">
+      <button class="btn btn-danger dropdown-toggle" (click)='showHideDropDown()' type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+       {{user_email}}
+      </button>
+      <div class="dropdown-menu" [ngStyle]="dropDownMenuVisibility" aria-labelledby="dropdownMenu2">
+        <button style='cursor:pointer' (click)="logout()" class="dropdown-item" type="button">Logout</button>
+      </div>
+    </div>
+
+  </nav>
